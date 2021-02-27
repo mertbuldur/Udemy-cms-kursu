@@ -1,0 +1,355 @@
+/* Unimax Theme Responsive Design */
+
+@media (max-width: 1024px) {
+    .list-items .blog-post .blog-content{
+        padding: 0;
+    }
+    .single-post h2{
+        font-size: 20px;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-padding{
+        padding: 15px;
+    }
+    ul.nav > li > a {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    .blog-content p{
+        font-size: 12px;
+    }
+    .blog-items{
+        padding: 0 10px;
+    }
+    .list-items .blog-post .col-md-6:first-child{
+        padding-left: 15px;
+    }
+    .bottom-header .default-btn{
+        display: none;
+    }
+    #mainmenu li{
+        padding-left: 15px;
+    }
+    .slider-text h1{
+        font-size: 40px;
+        letter-spacing: -3px;
+        line-height: 45px;
+    }
+    .blog-items.single-post{ border: none; padding: 0; }
+    .sidebar-wrap{ padding: 0; }
+    .blog-post .blog-content a{
+        font-size: 18px;
+    }
+    .promo-section{
+        position: inherit;
+        margin-top: 0;
+        padding: 40px 0;
+    }
+    .promo-wrap{
+        position: inherit;
+    }
+    .promo-content{
+        display: block;
+        text-align: center;
+    }
+    .promo-details h3 {
+        font-size: 17px;
+    }
+    .about-section{
+        overflow: hidden;
+    }
+    .about-bg{
+        left: 20px;
+    }
+    .reg-content h2{
+        font-size: 50px;
+    }
+    .reg-form{
+        margin-top: 30px;
+    }
+    .widget-content .social-icon li{
+        margin: 5px;
+    }
+    .course-single-details li .pro-info{
+        margin-right: 10px;
+    }
+    .course-category-wrap h2{
+        font-size: 20px;
+    }
+    .course-single-details .default-btn{
+        display: none;
+    }
+    .event-wrap{ text-align: center;}
+    .event-date {
+        display: inline-block;
+        padding: 35px 40px;
+    }
+    .ticket-btn a {
+        display: inline-block;
+        padding: 10px 21px;
+    }
+    .event-details{
+        margin: 30px 0;
+    }
+    .comments-list .comment-box {
+        width: 80%;
+    }
+    .reply-list .comment-box{
+        width: 80%;
+    }
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .section-heading h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .section-heading h2 br,
+    p br{
+        display: none;
+    }
+    .padding{
+        padding: 60px 0;
+    }
+    .xs-padding{
+    	padding: 15px;
+    }
+    .site-branding{
+        padding: 17px 0;
+    }
+    .about-bg,
+    .js #mainmenu {
+        display:none;
+    }
+    .js .slicknav_menu {
+        display:block;
+    }
+    .header-height {
+        height: 104px;
+    }
+    .pager-header{
+        min-height: 220px;
+    }
+    .breadcrumb {
+        right: auto;
+        top: auto;
+        bottom: -50px;
+        left: -15px;
+        margin: 0;
+    }
+	.contact_form .form-group .col-sm-6:first-child{
+        margin-bottom: 15px;
+    }
+    .coment-form .form-group .col-sm-4:last-child{
+        margin-top: 15px;
+    }
+    .blog-items{
+        padding-left: 0!important;
+        border: none!important;
+    }
+    .blog-items.single-post{ padding: 0 15px; }
+    .list-items .blog-post img{
+        margin-bottom: 10px;
+    }
+    .colum-row .col-sm-6:first-child{
+        margin-bottom: 15px;
+    }
+    .contact-info ul li{
+        font-size: 10px;
+    }
+    .single-post h2{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .share-icon li{
+        margin-bottom: 10px;
+    }
+    .slider-text h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .slider-text p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .slider-text h5{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .slider-text .default-btn{
+        display: none!important;
+    }
+    .owl-nav div{
+        left: 0;
+    }
+    .owl-nav div.owl-next{
+        right: 0;
+    }
+    .hero-content h1 {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -2px;
+    }
+    .request-form{ padding-right: 0; }
+    .request-bg{
+        display: none;
+    }
+    .footer-section .footer-social,
+    .footer-section{
+        text-align: center;
+    }
+    .footer-social li a{ margin: 0 10px; }
+    .site-branding img{
+        padding: 5px 0;
+    }
+    .gallery-filter li{
+        padding: 5px 10px;
+        margin-right: 0;
+        font-size: 10px;
+    }
+    .comments-list .comment-box:before,
+    .comments-list .comment-box:after,
+    .comments-list:before{
+        display: none;
+    }
+    .promo-wrap{
+        margin: 0;
+    }
+    .promo-content{
+        border: none;
+    }
+    .cta-content h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #scroll-to-top {
+        width: 35px;
+        height: 35px;
+        font-size: 10px;
+        line-height: 35px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 576px CSS ---- */
+@media all and (max-width: 576px) {
+    .coment-form .form-group .col-sm-4{
+        margin-bottom: 15px;
+        margin-top: auto;
+    }
+    .comment-form .form-group .col-sm-4:nth-child(1),
+    .comment-form .form-group .col-sm-4:nth-child(2){
+        margin-bottom: 15px;
+    }
+    .slider-text{
+        text-align: center;
+    }
+    .slider-text h1{
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -1px;
+        margin: 0;
+    }
+    .slider-text p{
+        display: none;
+    }
+    .hero-section{
+        height: 480px;
+    }
+    .hero-content h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .top-content-wrap ul li{
+        margin-right: 5px;
+    }
+    .about-content{
+        padding: 0;
+    }
+    .promo-wrap{
+        width: auto;
+        height: auto;
+    }
+    .about-section{
+        padding: 40px 0;
+    }
+    .about-bg{
+        display: none;
+    }
+    .cta-content h2 {
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .reg-content .counter{
+        font-size: 50px;
+    }
+    .reg-content h2{
+        font-size: 40px;
+    }
+    .row.counters{ margin: -25px -15px; }
+    .counters .sm-padding{
+        padding: 25px 15px;
+    }
+    .counters .counter-content i{
+        position: inherit;
+    }
+    .counters .counter-content{
+        text-align: center;
+        padding-left: 0;
+    }
+    .video-content h2{
+        font-size: 35px;
+    }
+    .reply-list {
+        padding-left: 20px;
+    }
+}
+/* ---- End of max-width 576px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    .header-height {
+        height: 130px;
+    }
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+    .about-content h2{
+        font-size: 35px;
+    }
+}
+/* ---- End of max-width 380px CSS ---- */
